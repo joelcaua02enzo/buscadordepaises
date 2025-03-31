@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estali.css">
+    <link rel="shortcut icon" href="iconeban.jpg" type="image/x-icon">
+    <title>buscador de paises</title>
+</head>
+<body>
+    <h1>buscador de paises</h1>
+    <div class="subh">
+        <div class="sarte">
+            pesqisar pais:
+            <input type="text" id="input" onkeyup="localSearch(this)" placeholder="Buscar por nome do pais">
+        </div>
+        <div class="filtre">
+            <input onchange="filter(this)" type="radio" name="filtro" id="filtro1" value="all" checked>todos
+            <input onchange="filter(this)" type="radio" name="filtro" id="filtro2" value="region/asia">estados unidos
+            <input onchange="filter(this)" type="radio" name="filtro" id="filtro3" value="region/canada">canada
+            <input onchange="filter(this)" type="radio" name="filtro" id="filtro4" value="region/japao">japâo
+            <input onchange="filter(this)" type="radio" name="filtro" id="filtro5" value="region/coreia">coreia do sul
+        </div>
+    </div>
+    <hr>
+    <h2>resutados: <samp id="qt">000</samp></h2>
+    <div class="all">
+        <!-- <div class="caixa">
+            <img src="gits.jpeg" alt="">
+            <samp>brazil</samp>
+            <samp>abitantes:</samp>
+        </div>
+        <div class="caixa">
+            <img src="gits.jpeg" alt="">
+            <samp>brazil</samp>
+            <samp>abitantes:</samp>
+        </div> -->
+    </div>
+    <script src="escript.js"></script>
+</body>
+</html>

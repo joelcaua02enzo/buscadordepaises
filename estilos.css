@@ -1,0 +1,45 @@
+*{
+padding: 0;
+margin: 0;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+body{
+    font-family: 'Playwrite HU', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #0056b3;
+}
+.iuf{
+    font-size: 10px;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
